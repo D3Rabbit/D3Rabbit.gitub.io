@@ -1,20 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello World</title>
-    <url>/2020/08/26/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre><code class="bash">$ hexo new &quot;My New Post&quot;</code></pre>
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre><code class="bash">$ hexo server</code></pre>
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre><code class="bash">$ hexo generate</code></pre>
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre><code class="bash">$ hexo deploy</code></pre>
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
     <title>测试</title>
     <url>/2020/08/27/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0%E4%B8%8A%E4%BC%A0/</url>
     <content><![CDATA[<p>成功上传</p>
@@ -24,21 +10,6 @@
       </categories>
       <tags>
         <tag>测试</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>PHP数据类型</title>
-    <url>/2020/08/27/PHP%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/</url>
-    <content><![CDATA[<h2 id="数据类型"><a href="#数据类型" class="headerlink" title="数据类型"></a>数据类型</h2><p>1.数据类型是为了把数据分成所需内存大小不同的数据，编程的时候才需要申请大内存，就可以宠妃利用内存.<br>2.数据类型：<br>字符串：字符序列，可以时引号内的任何文本.<br>整数：整数不能有小数点正负均可，可以用三种格式规定整数：十进制.十六进制（0x）八进制（0）<br>浮点数：浮点数是有小数点或☞数型式的数字<br>逻辑：逻辑是true或false常用于条件判断.<br>数组：数组元素是组成数组的基本单元.数组元素也是一种变量.其标示为数组名后跟一个下标.下标表示了元素在数组中的顺序号.数组元素的一般形式为：数组名[下标]  下标只能为整形常量或整形表达式.<br>对象：对象是储存数据和处理数据方式的数据类型，在PHP中必须明确的声明对象必须声明对象的类（关键词 class） 类是包括属性和方法的结构.在对象中定义数据类型在该类的实例中使用数据类型.<br>NULL：NULL的值表示变量无值，表示变量是否为空，区别空字符与空值数据库.<br>3.var——dump（）函数： 可以返回变量的数据类型和值.</p>
-<h2 id="知识点"><a href="#知识点" class="headerlink" title="知识点"></a>知识点</h2><p>1.echo 可以输出一串以上的字符串，而print只能输出一个字符串<br>2.单引号和双引号的区别：双引号字符串中的变量名会替换成变量的值，而单引号没有这个效果.<br>例：$user=’BULL’<br>单引号输出—-$usser,<br>双引号输出—-BULL.<br>3.trim（）函数—去除字符串首位空格   strlen（）函数–计算字符串长度.<br>例：<br><code>&lt;?php  $a =&#39; abcd &#39;;  $qu = trim($q); $shu = strlen($qu); echo &quot;$shu&quot;; ?&gt;</code><br>输出结果 4</p>
-]]></content>
-      <categories>
-        <category>分类1 学习</category>
-        <category>分类2 PHP</category>
-      </categories>
-      <tags>
-        <tag>标签1 PHP</tag>
-        <tag>标签2 学习</tag>
       </tags>
   </entry>
 </search>
