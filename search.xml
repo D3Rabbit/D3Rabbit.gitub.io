@@ -12,4 +12,19 @@
         <tag>测试</tag>
       </tags>
   </entry>
+  <entry>
+    <title>解决xxx.github.io拒绝连接</title>
+    <url>/2020/08/29/%E8%A7%A3%E5%86%B3github%E4%B8%8A%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%87%BA%E7%8E%B0xxx.github.io%E5%B7%B2%E6%8B%92%E7%BB%9D%E8%BF%9E%E6%8E%A5/</url>
+    <content><![CDATA[<p>需要手动修改hosts文件:win10系统，在C:\Windows\System32\drivers\etc 中。然后用notpad编辑hosts文件，在最后一行加入 ip xxx.github.io(ip为你的xxx.github.io的ip)</p>
+<p>可以百度ipip.net在这个网站查询ip</p>
+<p>然后打开powershell 输入clear -dnsclientcache 清除DNS缓存  然后网站就可以打开了</p>
+<p>参考MelodyJerry的文章，感谢MelodyJerry。</p>
+]]></content>
+      <categories>
+        <category>blog问题</category>
+      </categories>
+      <tags>
+        <tag>blog</tag>
+      </tags>
+  </entry>
 </search>
