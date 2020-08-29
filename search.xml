@@ -27,4 +27,21 @@
         <tag>blog</tag>
       </tags>
   </entry>
+  <entry>
+    <title>测试代码上传效果</title>
+    <url>/2020/08/29/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/</url>
+    <content><![CDATA[<p>hello would</p>
+<pre><code class="c">#include&lt;stdio.h&gt;
+main&#123;
+print(&quot;Hello would!&quot;);
+return 0;
+&#125;</code></pre>
+]]></content>
+      <categories>
+        <category>测试</category>
+      </categories>
+      <tags>
+        <tag>测试</tag>
+      </tags>
+  </entry>
 </search>
